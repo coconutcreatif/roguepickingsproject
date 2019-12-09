@@ -1,0 +1,105 @@
+
+/***** BASE STYLES *****/
+
+body {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@font-face {
+font-family: 'Wisdom Script Regular';
+src: url('../fonts/wisdom-script-aj.woff') format('woff');
+}
+
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***** HEADER SECTION *****/
+
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 40px 0;
+  text-transform: uppercase;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 40px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/***** TOP SECTION *****/
+
+img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+h2 {
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+/***** BOTTOM SECTION  *****/
+
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.specials,
+.reviews,
+.contact {
+  width: 400px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+footer {
+  height: 50px;
+	border-top: 1px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+  text-transform: uppercase;
+}
+
+#fresh {
+  font-family: 'Wisdom Script Regular';
+  text-transform: lowercase;
+  color: #77a466;
+}
